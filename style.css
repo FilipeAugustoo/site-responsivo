@@ -106,12 +106,24 @@ button.slick-next {
 
     .logo {
         background-attachment: local;
+        background-size: 600px;
+        margin-top: -150px;
         width: 100%;
+        margin-bottom: -250px;
     }
 
     .menu {
         margin-top: -180px;
         width: 100%;
+        height: 45px;
+    }
+
+    button.slick-next {
+        background-image: none;
+    }
+
+    button.slick-prev {
+        background-image: none;
     }
 
     .menu ul li a {
@@ -121,5 +133,9 @@ button.slick-next {
 
     .video video {
         width: 100%;
+    }
+
+    .video h1 {
+        font-size: 30px;
     }
 }
